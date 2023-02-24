@@ -1,0 +1,94 @@
+#menu_navegacion{
+    background-color: #b91817;
+    display: flex;
+    font-size: 1vw;
+}
+
+#logo{
+    width: 20%;
+}
+#logo img{
+    width: 100%;
+}
+
+#menu{
+    width: 70%;
+    background-color: #981914;
+    border-radius: 20px 20px 0px 0px;
+}
+#menu > ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-size: 2.5em;
+    line-height: 200%;
+}
+#menu > ul > li > ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+#menu li{
+    width: 25%;
+    height: 100%;
+}
+#menu ul a{
+    color: white;
+    display: block;
+    text-decoration: none;
+    padding-top: 10px;
+}
+#menu ul li{
+    position: relative;
+    float: left;
+    margin: 0;
+    padding: 0;
+}
+#menu > ul > li:hover{
+    background-color: brown;
+    border-radius: 20px 20px 0px 0px;
+}
+#menu > ul > li > ul > li:hover{
+    background-color: brown;
+}
+#menu > ul > li > ul > li:last-child:hover{
+    border-radius: 0px 0px 20px 20px;
+}
+#menu ul ul{
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    padding: 0;
+    width: 100%;
+}
+#menu ul ul li{
+    float: none;
+    width: 100%;
+}
+#menu ul ul a{
+    line-height: 120%;
+    padding: 10px 15px;
+    text-align: left;
+}
+#menu ul li:hover ul{
+    display: block;
+    background-color: #981914;
+}
+#menu ul li:hover ul:last-child{
+    border-radius: 0px 0px 20px 20px;
+}
+#menu a{
+    text-align: center;
+}
+
+#uwu{
+    width: 10%;
+    font-size: 1.2em;
+    text-align: center;
+}
+#uwu img{
+    width: 60%;
+    padding: 10px;
+}
