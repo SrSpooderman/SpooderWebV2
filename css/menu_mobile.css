@@ -48,6 +48,8 @@
     text-align: center;
     width: 40%;
     padding: 20px;
+    text-decoration: none;
+    color: white;
 }
 #menu ul li ul{
     display: none;
