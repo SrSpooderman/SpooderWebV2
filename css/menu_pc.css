@@ -1,4 +1,10 @@
+header{
+    top: 0;
+    position: sticky;
+}
+
 #menu_navegacion{
+    top: 0;
     background-color: #b91817;
     display: flex;
     font-size: 1vw;
