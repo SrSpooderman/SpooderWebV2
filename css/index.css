@@ -1,3 +1,94 @@
-main{
-    background-color: white;
+#index{
+    display: flex;
+    height: 100%;
+    font-size: 1vw;
+}
+#columna1{
+    width: 20%;
+    text-align: center;
+    background-image: url("sprites/pvzbackhex.png");
+    opacity: 0.7;
+    font-size: 1.06em;
+    color: aliceblue;
+}
+
+#columna2{
+    width: 40%;
+    display: block;
+}
+#boton_xd{
+    text-align: center;
+    width: 100%;
+}
+#boton_xd a img{
+    text-decoration: none;
+    color: aliceblue;
+    width: 50%
+}
+#noticias{
+    color: white;
+    margin-left: 10px;
+    font-size: 1em;
+}
+#noticias h1{
+    text-decoration: solid;
+    text-align: center;
+}
+
+#columna3{
+    width: 40%;
+    height: 100%;
+    display: block;
+}
+#imagen_xd{
+    width: 80%;
+}
+#imagen_xd img{
+    padding: 10%;
+    width: 100%;
+    border-radius: 200px;
+}
+#coco_girando{
+    width: 100%;
+    text-align: center;
+}
+#coco_girando img{
+    width: 5%;
+}
+
+@media (max-width: 600px) {
+    #index{
+        display: block;
+        font-size: 1vw;
+    }
+    #columna1{
+        display: none;
+    }
+    
+    #columna2{
+        width: 100%;
+        display: block;
+    }
+    #boton_xd{
+        text-align: center;
+        width: 100%;
+    }
+    #boton_xd a img{
+        text-decoration: none;
+        color: aliceblue;
+        width: 20%
+    }
+    #noticias{
+        margin-left: 30px;
+        margin-right: 30px;
+        font-size: 3em;
+    }
+
+    #columna3{
+        width: 100%;
+        height: 100%;
+    }
+    #coco_girando{ 
+        margin-bottom: 5%;
+    }
 }
