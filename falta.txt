@@ -1,0 +1,13 @@
+//Ambulancias pedir una//Me falta:
+Formulario con almenos 4 inputs con atributo name
+boton de submint
+boton de reset
+
+//Pesadillas hacer una tabla con peliculas que me han dado pesadillas//
+Incloure una taula amb estils alterns per línia i estil diferenciat a la primera línea.
+
+//Actores// Incloure una galeria amb imatges d’un mateix tamany amb text a sota (Object-fit).
+
+//Avellanas, son pequeñas y tal//Incloure una galeria amb imatges d’un mateix tamany més petites que a l’anterior punt (Object-fit).
+
+El codi ha d’estar comentat adeqüadament.

@@ -16,6 +16,9 @@ header{
 #logo img{
     width: 100%;
 }
+#logo:hover{
+    background-color: #981914;
+}
 
 #menu{
     width: 70%;
@@ -97,6 +100,9 @@ header{
 #uwu img{
     width: 60%;
     padding: 10px;
+}
+#uwu img:hover{
+    background-color: #981914;
 }
 #boton_menu{
     display: none;

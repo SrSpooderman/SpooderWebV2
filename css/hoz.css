@@ -1,0 +1,20 @@
+#grid_cesped{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 10%);
+    grid-template-rows: repeat(auto-fill, 10vw);
+}
+#grid_cesped div{
+    width: 100%;
+    height: 10vw;
+    background-image: url("sprites/césped-en-un-cuadrado-16580642.jpg");
+    background-size: contain;
+    cursor: url('sprites/sickle64.cur'),pointer;
+}
+#premio:active{
+    background-image: url("sprites/png-transparent-transparency-and-translucency-computer-file-diamond-block-combination-graphic-body-texture-angle-triangle.png");
+    cursor: url('sprites/sickle64-2.cur'),pointer;
+}
+#grid_cesped div:not(#premio):active{
+    background-image: url("sprites/suelo-suciedad-cultivada-tierra-fondo-marr-n-de-la-el-cultivar-un-huerto-org-nico-agricultura-primer-naturaleza-cuadrado-tirado-152843335.jpg");
+    cursor: url('sprites/sickle64-2.cur'),pointer;
+}

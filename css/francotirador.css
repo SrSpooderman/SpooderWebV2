@@ -1,0 +1,61 @@
+.fondo{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    background-image: url("sprites/francotirador/francotirador.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    animation-name: proceso;
+    animation-duration: 20s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+}
+@media (max-width: 600px) {
+    .fondo{
+        background-image: url("sprites/francotirador/reponsivo/Soldier-sniper-muffler-weapon_iphone_1080x1920.jpg");
+    
+        animation-name: proceso_movil;
+        animation-duration: 15s;
+    }
+}
+
+
+@keyframes proceso{
+    0% {
+        background-image: url("sprites/francotirador/francotirador.jpg");
+    }
+    20% {
+        background-image: url("sprites/francotirador/HD-wallpaper-monkey-thinking-monkey-water-animals-thinking.jpg");
+    }
+    30% {
+        background-image: url("sprites/francotirador/mujer.png");
+    }
+    50% {
+        background-image: url("sprites/francotirador/Duck-reflection-in-water718.jpg");
+    }
+    70% {
+        background-image: url("sprites/francotirador/Angry-Man_rs.png");
+    }
+    100% {
+        background-image: url("sprites/francotirador/nft.jpg");
+    }
+}
+
+@keyframes proceso_movil{
+    30%{
+        background-image: url("sprites/francotirador/reponsivo/Soldier-sniper-muffler-weapon_iphone_1080x1920.jpg");
+    }
+    50% {
+        background-image: url("sprites/francotirador/reponsivo/DS1_Solaire_in_Undead_Burg.png");
+    }
+    75% {
+        background-image: url("sprites/francotirador/reponsivo/tumblr_6f9f8ed5012dad5755be04146717d2c8_6fbd5370_500.png");
+    }
+    100% {
+        background-image: url("sprites/francotirador/reponsivo/bojack-horseman-triste_1360x2400_xtrafondos.com.jpg");
+    }
+}
