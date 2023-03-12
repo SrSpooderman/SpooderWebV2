@@ -1,0 +1,60 @@
+body{
+    background-image: url("sprites/bgambu.gif");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+main{
+    display: flex;
+    font-size: 1vw;
+}
+#formulario{
+    width: 50%;
+    justify-content: center;
+    align-items: center;  
+}
+form{
+    color: white;
+    padding: 10%;
+    font-size: 1em;
+}
+form h1{
+    margin-bottom: 10px;
+    font-size: 2.5em;
+}
+form div{
+    margin-bottom: 20px;
+}
+
+
+#shark{
+    margin-top: 10%;
+    width: 50%;
+}
+#shark a img{
+    width: 60%;
+    height: 50%;
+    transform: scaleX(-1);
+    object-fit: contain;
+    border-radius: 100%;
+}
+
+
+@media (max-width: 600px){
+    body{
+        background-image: unset;
+    }
+    #shark{
+        display: none;
+    }
+    #formulario{
+        width: 100%;
+    }
+    form{
+        font-size: 3.4em;
+    }
+    form h1{
+        margin-bottom: 10px;
+        font-size: 2.5em;
+    }
+}

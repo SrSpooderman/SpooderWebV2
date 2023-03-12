@@ -1,0 +1,33 @@
+body{
+    background-image: url("sprites/explosion.gif");
+    background-size: 10vw 10vh;
+}
+#escudo{
+    animation: movimiento_x 1s ease-in-out infinite, movimiento_y 5s ease-in-out infinite;
+    width: 20%;
+    height: auto;
+    position: absolute;
+}
+
+@keyframes movimiento_x{
+    0%{
+        left: 0;
+    }
+    50%{
+        left: calc(100vw - 20%);
+    }
+    100%{
+        left: 0;
+    }
+}
+@keyframes movimiento_y{
+    0%{
+        top: 100px;
+    }
+    50%{
+        top: calc(0vh + 60%);
+    }
+    100%{
+        top: 100px;
+    }
+}

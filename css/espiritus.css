@@ -1,0 +1,16 @@
+body{
+    background-image: url("sprites/4540cfd8909197c2559dd30a7234f63e.gif");
+}
+main{
+    display: flex;
+}
+main div{
+    margin-top: 5%;
+    width: 50%;
+    text-align: center;
+}
+main div:nth-child(2){
+    transform: scaleX(-1);
+}
+/*Parecera que no, 
+pero no hago reponsivo porque me hace mucha gracia como se ve desde movil*/

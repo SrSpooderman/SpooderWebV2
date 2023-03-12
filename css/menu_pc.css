@@ -53,6 +53,7 @@ header{
     float: left;
     margin: 0;
     padding: 0;
+    z-index: 1;
 }
 #menu > ul > li:hover{
     background-color: brown;
@@ -71,6 +72,7 @@ header{
     left: 0;
     padding: 0;
     width: 100%;
+    z-index: 2;
 }
 #menu ul ul li{
     float: none;

@@ -8,18 +8,13 @@
     background-image: url("sprites/francotirador/francotirador.jpg");
     background-size: cover;
     background-repeat: no-repeat;
-
-    animation-name: proceso;
-    animation-duration: 20s;
+    animation: proceso 20s infinite;
     animation-timing-function: ease-in-out;
-    animation-iteration-count: infinite;
 }
 @media (max-width: 600px) {
     .fondo{
         background-image: url("sprites/francotirador/reponsivo/Soldier-sniper-muffler-weapon_iphone_1080x1920.jpg");
-    
-        animation-name: proceso_movil;
-        animation-duration: 15s;
+        animation: proceso_movil 15s;
     }
 }
 

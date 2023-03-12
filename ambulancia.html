@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="icon" href="">
+        <link rel="stylesheet" type="text/css" href="css/ambulancia.css">
+        <link rel="stylesheet" type="text/css" href="css/web_basic.css">
+        <link rel="stylesheet" type="text/css" href="css/menu_pc.css" media="screen and (min-width: 601px)">
+        <link rel="stylesheet" type="text/css" href="css/menu_mobile.css" media="screen and (max-width: 600px)">
+        <link rel="stylesheet" type="text/css" href="css/footer.css">
+        <title>Ambulancia</title>
+    </head>
+    <body>
+        <header>
+            <div id = "menu_navegacion">
+                <div id="submenu">
+                    <div id="logo"><a href="index.html"><img src="css/sprites/Spooderweb.png" alt=""></a></div>
+                </div>
+                <div id="boton_menu"><img src="css/sprites/menu.png"></div>
+                <nav id = "menu">
+                    <ul>                  
+                        <li> <a>Objetos</a>
+                            <ul>
+                                <li><a href="francotirador.html">Francotirador</a></li>
+                                <li><a href="avellanas.html">Avellanas</a></li>
+                                <li><a href="hoz.html">Hoz</a></li>
+                                <li><a href="escudo.html">Escudo</a></li>
+                            </ul>
+                        </li>
+                        <li><a>Entidades</a>
+                            <ul>
+                                <li><a href="ambulancia.html">Ambulancias</a></li>
+                                <li><a href="princesa.html">Princesas</a></li>
+                                <li><a href="actor.html">Actor</a></li>
+                                <li><a href="vaca.html">Vaca</a></li>
+                            </ul>
+                        </li>
+                        <li><a>Materiales</a>
+                            <ul>
+                                <li><a href="aluminio.html">Aluminio</a></li>
+                            </ul>
+                        </li>
+                        <li><a>Abstracciones</a>
+                            <ul>
+                                <li><a href="pesadilla.html">Pesadillas</a></li>
+                                <li><a href="espiritu.html">Espiritus</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </nav>
+                <div id="uwu">
+                    <a href="https://libraryofbabel.info/bookmark.cgi?bcdl,zvrwlhzk237" target="_blank">
+                        <img src="css/sprites/Potato_Mine_HD.webp" alt="">
+                    </a>
+                </div>
+            </div>
+        </header>
+        <main>
+            <div id="formulario">
+                <form method="post" action="">
+                    <h1>Solicitud Ambulancia</h1>
+                    <div class="nombre">
+                        <label for="fname">Nombre:</label><br>
+                        <input type="text" id="fname" name="fname" placeholder="Nombre.png" required><br>
+                    </div> 
+                    <div class="direccion">
+                        <label for="fdireccion">Direccion:</label><br>
+                        <input type="text" id="fdireccion" name="fdireccion" placeholder="Direccion completa" required><br>
+                    </div> 
+                    <div class="asignatura">
+                        Gravedad <br>
+                        <input type="radio" id="Nah, es un rasguño" name="fclass2" value="Nah, es un rasguño" required>
+                        <label for="Nah, es un rasguño">Nah, es un rasguño</label><br>
+                        <input type="radio" id="Un golpecito, tomate tu tiempo" name="fclass2" value="Un golpecito, tomate tu tiempo">
+                        <label for="Un golpecito, tomate tu tiempo">Un golpecito, tomate tu tiempo</label><br>
+                        <input type="radio" id="Puede ser grave, advice" name="fclass2" value="Puede ser grave, advice">
+                        <label for="Puede ser grave, advice">Puede ser grave, advice</label><br>
+                        <input type="radio" id="No respira, se esta muriendo ayuda porfavor" name="fclass2" value="No respira, se esta muriendo ayuda porfavor">
+                        <label for="No respira, se esta muriendo ayuda porfavor">No respira, se esta muriendo ayuda porfavor</label><br>
+                    </div>
+                    <div class="checkbox">
+                        Minimos<br>
+                        <input type="checkbox" id="Respira" name="Respira" value="Respira">
+                        <label for="Respira">Respira?</label><br>
+    
+                        <input type="checkbox" id="Sangra" name="Sangra" value="Sangra">
+                        <label for="Sangra">Sangra?</label><br>
+    
+                        <input type="checkbox" id="pulso" name="pulso" value="pulso">
+                        <label for="pulso">Tiene pulso?</label><br>
+    
+                        <input type="checkbox" id="muerto" name="muerto" value="muerto">
+                        <label for="pulso">Esta muerto?</label><br>
+                    </div>
+                    <div class="multi">
+                        <label for="fmulti">Parte del cuerpo herido</label><br>
+                        <select id="fmulti" name="multi" required>
+                            <option value="pie">Pie</option>
+                            <option value="bellota">Jamon de bellota</option>
+                            <option value="pierna">Pierna</option>
+                            <option value="torso">Torso</option>
+                            <option value="torula">Rotula</option>
+                            <option value="meñique">Meñique</option>
+                            <option value="nuca">Nuca</option>
+                            <option value="ojo">Ojo</option>
+                            <option value="riñon">Riñon</option>
+                        </select>
+                    </div>
+                    
+                    <input type="submit" value="Solicitar ambulancia" id="fsubmit" name="fsubmit">
+        
+                    <button type="reset">Resetear</button>
+                </form>
+            </div>
+
+            <div id="shark">
+                <a href="https://youtu.be/A_olVElDSWI" target="_blank">
+                    <img src="css/sprites/shark.gif" alt="">
+                </a>
+            </div>
+        </main>
+        <footer>
+            <div id="suelo">
+                <a>SpooderWeb©</a>
+            </div>
+        </footer>
+    </body>    
+</html>
