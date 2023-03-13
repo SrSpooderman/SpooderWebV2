@@ -1,0 +1,33 @@
+body{
+    background-image: url("sprites/pngegg.png"), url("sprites/cielo.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position-y: bottom;
+    background-position: center;
+    background-size: cover;
+}
+main div{
+    position: absolute;
+    width: 20%;
+    margin-left: 40%;
+    margin-top: 35vh;
+}
+main div img{
+    width: 100%;
+    animation: movimiento 1s infinite;
+}
+
+@keyframes movimiento{
+    0%{
+        transform: rotateZ(0deg);
+    }
+    100%{
+        transform: rotateZ(360deg);
+    }
+}
+
+@media (max-width: 600px){
+    main div{
+        width: 40%;
+    }
+}

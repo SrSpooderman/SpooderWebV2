@@ -1,0 +1,45 @@
+body{
+    background-image: url("sprites/6dfbacc3-bced-45e7-ac0b-cb9f49ebdfff_16-9-discover_1200x675.jpg");
+    background-size: auto;
+    background-attachment: fixed;
+}
+main{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    font-size: 1vw;
+}
+main div{
+    width: 100%;
+    height: 50vh;
+    place-self: center;
+    text-align: center;
+}
+main div img{
+    border-radius: 50px;
+    margin: 10px;
+    width: 80%;
+    height: 80%;
+    object-fit: contain;
+}
+
+main div p{
+    padding:10px;
+    border-radius: 10px;
+    margin-left: 5%;
+    margin-right: 5%;
+    text-align:left;
+    color: white;
+    font-size: 1em;
+}
+
+@media (max-width: 600px){
+    main{
+        display: block;
+    }
+    main div{
+        margin-bottom: 10%;
+    }
+    main div p{
+        font-size: 3em;
+    }
+}

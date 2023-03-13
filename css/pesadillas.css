@@ -22,3 +22,9 @@ tr:first-child {
 background-color: black;
 color: white;
 }
+
+@media (max-width: 600px){
+    table{
+        font-size: 3vw;
+    }
+}

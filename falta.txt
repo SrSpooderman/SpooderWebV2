@@ -1,7 +1,6 @@
 Me queda por hacer
 Princesa
 Actores
-Vaca
 
 
 //Actores// Incloure una galeria amb imatges d’un mateix tamany amb text a sota (Object-fit).
